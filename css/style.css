@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000;
+  }
+  
+.neon-btn{
+  max-width: 350px;
+  width: 100%;
+  box-shadow: 0 0 5px cyan,
+  0 0 25px cyan;
+  background: cyan;
+  border: 0;
+  font-size: large;
+  border-radius: 5px;
+  padding: 2%;
+}
+
+.neon-btn:hover{
+  box-shadow: 0 0 5px cyan,
+              0 0 50px cyan,
+              0 0 100px cyan,
+              0 0 200px cyan;
+}
